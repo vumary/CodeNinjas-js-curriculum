@@ -13,10 +13,10 @@ canvas {
 <script>
 
 // declare three global variables below with names: myGamePiece, myObstacles, and myScore
-// declare myObstacles as an empty array
-var myGamePiece;
-var myObstacles = [];
-var myScore;
+// declare myObstacles as an empty array 
+
+
+
 
 function startGame() {
     myGamePiece = new component(30, 30, "red", 10, 120);
@@ -26,20 +26,18 @@ function startGame() {
 }
 
 var myGameArea = {
-    
     // a canvas is something that is used when you want to draw graphics on a page
     // we are finally moving out of the console!!!
     // create a canvas element below:
-    canvas : document.createElement("canvas"),
+    
 
     start : function() {
         // create two integer variables for width and height below:
-        this.canvas.width = 480;
-        this.canvas.height = 270;
-        
+
+
         // set the canvas to 2-d with me:
-        this.context = this.canvas.getContext("2d");
         
+
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
         updateGameArea();
@@ -125,13 +123,12 @@ function updateGameArea() {
         myObstacles[i].x += -1;
         myObstacles[i].update();
     }
-
     myScore.text="SCORE: " + myGameArea.frameNo;
     myGamePiece.newPos();
-    
     // use the .update() method on your variables: myScore and myGamePiece
-    myScore.update();
-    myGamePiece.update();
+
+
+
 }
 
 function everyinterval(n) {
@@ -142,11 +139,13 @@ function everyinterval(n) {
 // follow along with me and create your first function named accelerate!
 // you may not understand everythings about what i am typing, but that's okay!
 // we are creating a function so that you can remember the syntax!
-function accelerate(n) {
-    if (!myGameArea.interval) {myGameArea.interval = setInterval(updateGameArea, 20);}
 
-    myGamePiece.gravity = n;
-}
+
+
+
+
+
+
 </script>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
