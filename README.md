@@ -1,4 +1,4 @@
-# CodeNinjas-JS-Curriculum
+# CodeNinjas-js-curriculum
 Code Ninja's Poway 6-week Python Course. This repo includes a sensei guide and student guide for each project. 
 More details for Senseis' [here](https://docs.google.com/document/d/1kA0qK6XSSc8vK3oVod3vWxcS-1FoDA31ZSzKWL8q760/edit?usp=sharing)
 
