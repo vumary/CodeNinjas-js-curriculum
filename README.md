@@ -13,7 +13,7 @@ Week 1 [Trivia](https://create.kahoot.it/details/fun-trivia-5th-grade/cf1d927e-b
 Week 2 [JavaScript Review](https://create.kahoot.it/share/javascript-review/7a47cd3d-d052-4e47-bd4f-4cce7789dea5), 
 join [here](kahoot.it), 
 
-## Games
+## Game break
 [LightBot](https://lightbot.com/flash.html), 
 [CodeCombat](https://codecombat.com/), 
 [Pickle Rick Maze](https://codepen.io/TheCodeDepository/pen/jKBaoN),
