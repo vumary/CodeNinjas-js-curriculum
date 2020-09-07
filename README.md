@@ -11,7 +11,7 @@ or install [Visual Studio Code](https://code.visualstudio.com/download)
 ## Kahoots
 Week 1 [Trivia](https://create.kahoot.it/details/fun-trivia-5th-grade/cf1d927e-b6c7-4937-b000-d6434b7f6b0d),
 Week 2 [JavaScript Review](https://create.kahoot.it/share/javascript-review/7a47cd3d-d052-4e47-bd4f-4cce7789dea5), 
-join [here](kahoot.it), 
+join [here](kahoot.it)
 
 ## Game break
 [LightBot](https://lightbot.com/flash.html), 
